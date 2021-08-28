@@ -8,7 +8,7 @@ importance: 1
 ---
 
 My senior thesis from Harvard. Read the full thesis <a href="{{
-"jazzmaster.pdf" | prepend: '/assets/pdf/' | relative_url}}">here</a>.
+"jazzmaster.pdf" | prepend: '/assets/pdf/' | relative_url}}" target="_blank">here</a>.
 
 ---
 
