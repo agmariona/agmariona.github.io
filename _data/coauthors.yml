@@ -17,3 +17,7 @@
 "Médard":
   - firstname: ["Muriel", "M."]
     url: https://www.rle.mit.edu/ncrcg/muriel-medard/
+
+"Doe":
+  - firstname: ["Jane", "J."]
+    url: google.com
