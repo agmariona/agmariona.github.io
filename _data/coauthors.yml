@@ -1,7 +1,19 @@
 "Calmon":
-  - firstname: ["Flavio P.", "Flavio"]
+  - firstname: ["Flavio P.", "Flavio", "F. P."]
     url: https://people.seas.harvard.edu/~flavio/
 
 "Barowsky":
-  - firstname: ["Madeleine"]
+  - firstname: ["Madeleine", "M."]
     url: https://www.linkedin.com/in/madeleinebarowsky
+
+"D'Oliveira":
+  - firstname: ["Rafael G. L.", "R. G. L."]
+    url: https://sites.google.com/view/rafaeld
+
+"Esfahanizadeh":
+  - firstname: ["Homa", "H."]
+    url: https://homaesf.mit.edu
+
+"Médard":
+  - firstname: ["Muriel", "M."]
+    url: https://www.rle.mit.edu/ncrcg/muriel-medard/
