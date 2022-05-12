@@ -11,7 +11,7 @@
   Alexander G. Mariona
 
 
-  | blog
+  | JazzMaster
 
 </title>
 <meta name="description" content="PhD student in EECS at MIT
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/jazzmaster/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -113,8 +113,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/publications/">
                 publications
@@ -149,18 +147,40 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">JazzMaster</h1>
+    <p class="post-description">An automatic accompaniment system for jazz music</p>
+  </header>
 
+  <article>
+    <p>My senior thesis from Harvard. Read the full thesis <a href="/assets/pdf/jazzmaster.pdf" target="_blank">here</a>.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<hr />
 
-  
+<h4 id="abstract">Abstract:</h4>
+<blockquote>
+  <p>Jazz is a musical genre which focuses heavily on improvisation in a group
+setting. In order to practice and improve, musicians must frequently play a
+wide variety of songs with others. Beginners or other musicians who do not have
+access to a band or practice group need a system which provides a suitable
+replacement experience. We design and implement a system which can accompany a
+soloist playing an arbitrary melody in real-time. If the melody is recognized
+to be that of a known jazz standard, the device will follow along to that
+standard. If the melody is not recognized, or if the player deviates from a
+known melody, the device will comp with a suitable, conventional chord
+progression.</p>
 
+  <p>The project consists of three main tasks: identifying a melody, deter- mining
+a suitable accompaniment, and playing the accompaniment. All of these tasks
+present primarily signal processing challenges. Iden- tifying the melody
+involves parsing a raw audio waveform into a programmatic representation. Such
+a representation can then be used to produce an accompaniment by matching to a
+database of known melodies and performing musical transformations to generate
+an ap- propriate harmony. Finally, the device must actually play along with the
+musician, following the musician’s tempo and phrasing well.</p>
+</blockquote>
+
+  </article>
 
 </div>
 
